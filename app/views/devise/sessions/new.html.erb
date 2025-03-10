@@ -9,12 +9,12 @@
 
       <div class="mb-3">
         <%= f.label :email, class: "form-label" %>
-        <%= f.email_field :email, class: "form-control", autofocus: true, autocomplete: "email" %>
+        <%= f.email_field :email, required: true, class: "form-control", autofocus: true, autocomplete: "email" %>
       </div>
 
       <div class="mb-3">
         <%= f.label :password, class: "form-label" %>
-        <%= f.password_field :password, class: "form-control", autocomplete: "current-password" %>
+        <%= f.password_field :password, required: true, class: "form-control", autocomplete: "current-password" %>
       </div>
 
       <%= f.submit "Log in", class: "btn btn-success w-100" %>
