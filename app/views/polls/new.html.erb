@@ -1,0 +1,14 @@
+<h1>Create a Poll</h1>
+<%= form_with(model: @poll, local: true) do |f| %>
+  <p>
+    <%= f.label :question %>
+    <%= f.text_field :question %>
+  </p>
+
+  <p>Options:</p>
+  <p><input type="text" name="options[]" /></p>
+  <p><input type="text" name="options[]" /></p>
+  <p><input type="text" name="options[]" /></p>
+
+  <p><%= f.submit "Create Poll" %></p>
+<% end %>
