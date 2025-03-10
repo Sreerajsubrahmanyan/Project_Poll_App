@@ -1,24 +1,9 @@
-# README
+Easy Poll 🦜
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Easy Poll is a simple polling system built with Ruby on Rails that allows users to create, vote on, and view poll results in real-time. It includes user authentication using Devise and provides an intuitive interface for managing polls.
+Features
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+✅ User Authentication – Sign up, log in, and manage polls securely.
+✅ Create Polls – Users can create polls with multiple-choice options.
+✅ Vote on Polls – Users can vote on active polls.
+✅ View Poll Results – Displays real-time results with percentages and total votes.
